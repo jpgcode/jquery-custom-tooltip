@@ -1,0 +1,38 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Tooltip!</title>
+	<meta name="description" content="Tooltip">
+	<meta name="author" content="José Pablo Granados">
+
+	<link rel="stylesheet" href="css/normalize.css?v=1">
+	<link rel="stylesheet" href="css/styles.css?v=1">
+</head>
+<body>
+	<div id="wrap">
+		<h1><img src="img/HTML5.png" id="html5"></h1>
+
+		<p>Lorem ipsum dolor <sup class="hasTooltip">1</sup> <span class="tooltipContent"><strong>Tooltip 1:</strong> Eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat ur. Excepteur sint occaecat cupidatat ur. Excepteur sint occaecat cupidatat</span> sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor <sup class="hasTooltip">2</sup><span class="tooltipContent"><strong>Tooltip 2:</strong> Eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</span> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris <sup class="hasTooltip">3</sup><span class="tooltipContent"><strong>Tooltip 3:</strong>Eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</span> nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore <sup class="hasTooltip">4</sup><span class="tooltipContent"><strong>Tooltip 4:</strong>Eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</span> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<sup class="hasTooltip">5</sup><span class="tooltipContent"><strong>Tooltip 5:</strong>Eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</span></p>
+	</div>
+	<!-- Scripts at the bottom to improve performance -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>
+		//Validate if javascript is enabled
+		(function(){
+			$("html").removeClass().addClass("js");	
+		})();
+	</script>
+	<script src="js/Tooltip.js" async></script>
+</body>
+</html>

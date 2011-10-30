@@ -1,0 +1,52 @@
+/*-- 
+CSS Snippet
+Author: Jose Pablo Granados
+Date: September 2011
+ --*/
+
+body{
+	font: 12px/18px Helvetica, Arial, sans serif;
+	color:#333;
+	background-color:#F3F3F3;
+}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+#wrap{width:580px; margin:0 auto 225px auto;}
+h1{width:333px; margin:0 auto;}
+img#html5{margin:15px 0;}
+span.tooltipContent{
+	display:none;
+	background-color: #E54D26;
+	color:#FFF;
+	padding:20px;
+	-webkit-border-radius: 25px;
+	-webkit-box-shadow: 5px 5px 20px #666;
+	-moz-border-radius: 25px;
+	-moz-box-shadow: 5px 5px 20px #666;
+	border-radius: 25px;
+	box-shadow: 5px 5px 20px #666;
+	overflow: hidden;
+}
+sup{cursor:pointer;}
+
+/*-- Scrollbar --*/
+span.tooltipContent::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+span.tooltipContent::-webkit-scrollbar-button:start:decrement,
+span.tooltipContent::-webkit-scrollbar-button:end:increment  {
+height: 30px;
+display: block;
+background-color: transparent;
+}
+span.tooltipContent::-webkit-scrollbar-track-piece  {
+background-color: #3b3b3b;
+-webkit-border-radius: 6px;
+}
+span.tooltipContent::-webkit-scrollbar-thumb:vertical {
+height: 50px;
+background-color: #F16528;
+-webkit-border-radius: 6px;
+}
