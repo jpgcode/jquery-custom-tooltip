@@ -1,7 +1,8 @@
 /* 
 JPG Code Tooltip
 Author: José Pablo Granados
-Date: September, 2011
+Email: jpavril1@gmail.com
+Date: October, 2011
 */
 
 var Tooltip = {
@@ -19,7 +20,7 @@ var Tooltip = {
 		delayTime: 600,
 		fadeInTime: 200,
 		fadeOutTime: 200,
-		tooltipPosition: "topRight"
+		tooltipPosition: "top"
 	},
 	init: function(selector){
 		Tooltip.vars.trigger = $(selector);

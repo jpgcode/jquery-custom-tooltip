@@ -28,7 +28,7 @@ span.tooltipContent{
 	box-shadow: 5px 5px 20px #666;
 	overflow: hidden;
 }
-sup{cursor:pointer;}
+sup{cursor:pointer; font-size:9px; vertical-align:top;}
 
 /*-- Scrollbar --*/
 span.tooltipContent::-webkit-scrollbar {
